@@ -23,9 +23,27 @@
         text-transform: uppercase;
         font-weight: normal;
       }
+      ul {
+      padding: 0;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      .links {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .links section {
+        flex-grow: 1;
+        width: 100%;
+      }
 
     </style>
   </head>
+  
   <body>
     <h1>Liwia Dolińska</h1>
     <h2>Cześć!</h2>
@@ -33,6 +51,7 @@
       To jest przykładowa strona profilowa. 
     </p>
 
+   <section class="links">
     <section>
     <h3>O mnie</h3>
     <ul>
@@ -64,6 +83,7 @@
       </ul>
 
     </section>
+  </section>
     
 
     <footer>
